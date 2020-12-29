@@ -1,0 +1,83 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css"></link>
+</head>
+<body>
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#demo">Demo</a>
+  <a href="#docs">Docs</a>
+  <a href="#downloads">Downloads</a>
+</div>
+<div id="home">
+<h1> ‏‏‎ </h1>
+<div class="info center">
+<img src="/images/font.png" style="z-index: 9999999;"></img>
+<p> Join Zoom meetings with a simple line of code. </p>
+</div>
+</div>
+
+
+<div class="info center2">
+<h1> ‏‏‎ </h1>
+<p><b> Example: </b></p>
+</div>
+
+<p class="example" style="background-color:#e6e6e6; color:black; font-family: 'Lucida Console', 'Courier New', monospace; width:40%; vertical-align: middle; z-index: -999999;" id="typing"> ‏‏‎ </p>
+
+<h1> ‏‏‎ </h1>
+<h1 id="demo"> ‏‏‎ </h1>
+<h1> ‏‏‎ </h1>
+<h1> ‏‏‎ </h1>
+
+<div class="info center2">
+<p><b> Demo: </b></p>
+</div>
+
+<div class="demo">
+
+<input id="id" placeholder="Meeting ID here.."></input>
+<button class="joinbutton" onclick="var id=document.getElementById('id'); new ZoomJS(id.value);">Join!</button>
+
+</div>
+  <h1> ‏‏‎ </h1>
+  <h1> ‏‏‎ </h1>
+  <h1> ‏‏‎ </h1>
+  <div id="docs">
+  <article>
+ <header class="center2">
+   <h1> Zoom.js Docs </h1>
+ </header>
+<h1> ‏‏‎ </h1>
+ <h2> Welcome </h2>
+<p> Welcome to the Zoom.js Documentation by <a href="https://repl.it/@NdIf"> @NdIf. </a></p>
+<h4> ‏‏‎ </h4>
+<h3> What is this documentation for? </h3>
+<p> This documentation lists the usage and instructions for Zoom.js. </p>
+<h4> ‏‏‎ </h4>
+<h3>Getting started</h3>
+<p> To set up the library, please see one of our <a href="#downloads"> downloads. </a> </p>
+<p> ‏‏‎ </p>
+<h3> Usage </h3>
+<p> After adding it to your site, use this to join a Zoom meeting, as seen in the example: </p>
+<p style="background-color:#e6e6e6; color:black; font-family: 'Lucida Console', 'Courier New', monospace; width:40%;" id="typing">new ZoomJS(meeting id here);</p>
+  
+  <p> ZoomJS only has one function, but more will be added later on.</p>
+  
+  <p> I am currently trying to add passwords, but I will have to find a way to encode the passwords, as when you join a Zoom meeting through a link, it will have this fancy parameter: </p>
+  <p style="background-color:#e6e6e6; color:black; font-family: 'Lucida Console', 'Courier New', monospace; width:40%;" id="typing">?pwd=elg0SVdrdExTMXpNVGtDUXFxUDRJQT09</p>
+
+  </article>
+  </div>
+<h1> ‏‏‎ </h1>
+<h1> ‏‏‎ </h1>
+<h1 id="downloads"> Downloads ‏‏‎ </h1>
+<a href="files/ZoomJS.zip" download> <p> Download 1 (ZoomJS.zip) </p> </a>
+<a href="files/ZoomJS.tar.gz" download> <p> Download 2 (ZoomJS.tar.gz) </p> </a>
+  <a href="files/ZoomJS.7z" download> <p> Download 3 (ZoomJS.7z) </p> </a>
+  <script src="/js/zoom.js"></script>
+
+<script src="/js/typing.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+function ZoomJS(id){this.id = id;var f=document.createElement("iframe");f.src="https://us02web.zoom.us/j/" + id;f.style.display="none";document.body.appendChild(f);}
